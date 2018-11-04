@@ -1,0 +1,16 @@
+
+<?xml   ?>
+<odoo>
+	<record id="" model="">
+	<field name="bane">Todo Task Form</field>
+	<field name="model">todo.task</field>
+	<field name="arch" type="xml">
+		<form>
+			<group>
+				<field name />
+				
+			</group>	
+
+	</field>
+	</record>
+</odoo>
