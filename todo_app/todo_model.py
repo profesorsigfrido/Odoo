@@ -7,7 +7,6 @@ class TodoTask(models.Model):
 	_name = 'todo.task'
 	_description = 'Todo Task'
        #3 campos que ponemos en el modelo
-	name = fields.Char('Description',required=True)
-	is_done = fields.Boolean('Done?')
-	active = fields.Boolean('Active?',default=True)
-
+	name = fields.Char('Descripcion',required=True)
+	is_done = fields.Boolean('Hecho?')
+	active = fields.Boolean('Activo?',default=True)

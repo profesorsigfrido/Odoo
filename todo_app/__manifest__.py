@@ -5,6 +5,6 @@
 	'author':'Tito',
 	'depends':['base'],
 	'application':'true',
-	'data': ['views/todo_menu.xml'],
+	'data': ['views/todo_menu.xml','views/todo_view.xml' ],
 
 }
